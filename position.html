@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .navi{
+            background-color: black;
+            color: white;
+            height: 70px;
+            position: sticky;
+            top: 0;
+        }
+        li{
+            display: inline;
+        }
+        .box1{
+            background-color: aquamarine;
+            margin: auto;
+            width: 50vw;
+            height: 445vh;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+        .box2{
+            background-color: greenyellow;
+            width: 15vw;
+            height: 15vw;
+            position: relative;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navi">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="box1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae reprehenderit accusantium odio alias earum nulla eligendi porro facilis suscipit molestiae.
+            <div class="box2">
+                <p>I am a box</p>
+            </div>
+        </div>
+       
+    </div>
+</body>
+</html>
